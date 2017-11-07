@@ -1,0 +1,19 @@
+{
+"nodes":[
+{"id":"Valentino","value":3},
+{"id":"Dolce & Gabbana","value":12},
+{"id":"Christian Louboutin","value":2},
+{"id":"Giorgio Armani","value":7},
+{"id":"Hermes","value":5},
+{"id":"Ralph Lauren","value":10}
+],
+"links":[
+{"source":"Valentino","target":"Ralph Lauren"},
+{"source":"Dolce & Gabbana","target":"Ralph Lauren"},
+{"source":"Dolce & Gabbana","target":"Valentino"},
+{"source":"Christian Louboutin","target":"Dolce & Gabbana"},
+{"source":"Christian Louboutin","target":"Valentino"},
+{"source":"Giorgio Armani","target":"Valentino"},
+{"source":"Hermes","target":"Valentino"}
+]
+}
